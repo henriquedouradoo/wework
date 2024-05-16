@@ -1,0 +1,170 @@
+:root {
+    --bg: #ffffff;
+    --text-title: #000000;
+    --font: 'Poppins', sans serif;
+    --font-second: "Lora", serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 70%;
+    height: 20%;
+    margin-top: 1%;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    gap: 4rem;
+}
+
+
+.logo img {
+    width: 30%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-title);
+    font-family: var(--font);
+    font-weight: 500;
+    transition: all .4s ease;
+    position: relative;
+    left: 15%;
+}
+
+a:hover {
+    color: #797979;
+}
+
+/* .border-nav {
+    border: 1px solid;
+    width: 100%; 
+    margin-top: 1%;
+}
+ */
+
+.container {
+    font-family: var(--font-second);
+    font-weight: 500;
+    align-items: center;
+}
+
+main {
+    margin-left: 5%;
+}
+.container h1 {
+    font-size: 3.8rem;
+    display: flex;
+    justify-content: left;
+    margin-left: 5%;
+    
+}
+
+.border {
+border: 2px solid;
+width: 38.5%;
+margin-left: 5%;  
+}
+
+
+.subtitle h4 {
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-family: var(--font-second);
+}
+
+
+.newsletter {
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.newsletter input {
+    margin-top: 2%;
+    margin-left: 4%;
+    width: 20%;
+    height: 3%;
+    border: none;
+    border-radius: 14px;
+    outline: none;
+    
+    
+}
+
+label[for="email"] { 
+    display: block; 
+    padding: 20px 0; 
+    font-size: 36px; 
+    font-weight: 700; 
+    letter-spacing: 10px; 
+    text-transform: uppercase; 
+    border-top: 5px solid #000; 
+    border-bottom: 5px solid #000; 
+    margin-bottom: 20px; 
+    width: 33%; 
+    transition: all 200ms ease; 
+    
+}
+label[for="email"]:hover { 
+    width: 40%; 
+}
+input:focus { 
+    outline: 0; 
+}
+input[type="email"] { 
+    background: #cecece; 
+    border: 0; 
+    width: 320px; 
+    padding: 30px; 
+    font-size: 14px; 
+    font-weight: 400; 
+    letter-spacing: 2px; 
+    text-transform: uppercase; 
+    float: left; 
+}
+input[type="submit"] { 
+    color: #FFF; 
+    background: linear-gradient(to right, #000 50%, #505050 50%);
+    background-size: 200% 100%; 
+    background-position:left bottom; 
+    border: 0; 
+    width: 180px; 
+    padding: 30px; 
+    font-size: 14px; 
+    font-weight: 400; 
+    letter-spacing: 2px; 
+    text-transform: uppercase; 
+    transition: all 200ms ease; 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+input[type="submit"]:hover { 
+    background: linear-gradient(to right, #000 50%, #585858 50%);
+    background-size: 200% 100%; 
+    background-position:right bottom; 
+}
+
+.container-right img {
+    width: 33%;
+    position: relative;
+    left: 50%;
+    margin-top: -21%;
+}
